@@ -195,5 +195,50 @@ footer .socials {
     margin-top: 32px;
 }  
 /* MEDIA QUERY (medium) */
+@media screen and (min-width: 600px) {
+    .offerings-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 24px;
+    }
+    .basket-card {
+        grid-column: 1 / -1;
+    }
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+}
 /* MEDIA QUERY (large) */
+@media screen and (min-width: 900px) {
+    .offerings-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 24px;
+    }
+    .basket-card {
+        grid-column: 1 / -1;
+    }
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+    }
+}
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1200px) {
+    .offerings-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+      }
+      .basket-card {
+        grid-column: 1 / -1;
+    }
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 24px;
+    }
+}
