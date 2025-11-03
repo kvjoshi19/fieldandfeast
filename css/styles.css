@@ -87,7 +87,7 @@ main {
 }
 .section-divider {
     height: 3px;
-    max-width: 100%;
+    max-width: 800px;
     background-color: var(--champagne-gold);
     margin: 20px auto;
 }
@@ -158,8 +158,7 @@ main {
     color: var(--dark-charcoal);
   }
   .button {
-    display: block;
-    width: 100%;
+    grid-column: 1 / -1;
     background-color: var(--olive-green);
     color: var(--soft-white);
     text-align: center;
@@ -167,9 +166,22 @@ main {
     border-radius: 8px;
     text-decoration: none;
     margin: 16px;
-    font-weight: 800px;
   }
-  
+  footer {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 40px;
+  }
+  footer p {
+    margin: 4px;
+  } 
+  footer a {
+    color: var(--champagne-gold);
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 6px;
+  }  
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
